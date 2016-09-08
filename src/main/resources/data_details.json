@@ -1,0 +1,694 @@
+{
+  "Header": {
+    "Time": "2016-08-09T08:57:11-07:00",
+    "ReportName": "ProfitAndLossDetail",
+    "DateMacro": "this fiscal year-to-date",
+    "ReportBasis": "Accrual",
+    "StartPeriod": "2016-04-01",
+    "EndPeriod": "2016-08-09",
+    "Currency": "INR",
+    "Option": [
+      {
+        "Name": "NoReportData",
+        "Value": "false"
+      }
+    ]
+  },
+  "Columns": {
+    "Column": [
+      {
+        "ColTitle": "Date",
+        "ColType": "tx_date"
+      },
+      {
+        "ColTitle": "Transaction Type",
+        "ColType": "txn_type"
+      },
+      {
+        "ColTitle": "No.",
+        "ColType": "doc_num"
+      },
+      {
+        "ColTitle": "Name",
+        "ColType": "name"
+      },
+      {
+        "ColTitle": "Class",
+        "ColType": "klass_name"
+      },
+      {
+        "ColTitle": "Memo/Description",
+        "ColType": "memo"
+      },
+      {
+        "ColTitle": "Split",
+        "ColType": "split_acc"
+      },
+      {
+        "ColTitle": "Amount",
+        "ColType": "subt_nat_amount"
+      },
+      {
+        "ColTitle": "Balance",
+        "ColType": "rbal_nat_amount"
+      }
+    ]
+  },
+  "Rows": {
+    "Row": [
+      {
+        "Header": {
+          "ColData": [
+            {
+              "value": "Ordinary Income/Expenses"
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            }
+          ]
+        },
+        "Rows": {
+          "Row": [
+            {
+              "Header": {
+                "ColData": [
+                  {
+                    "value": "Income"
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              "Rows": {
+                "Row": [
+                  {
+                    "Header": {
+                      "ColData": [
+                        {
+                          "value": "Billable Expense Income",
+                          "id": "14"
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        }
+                      ]
+                    },
+                    "Rows": {
+                      "Row": [
+                        {
+                          "ColData": [
+                            {
+                              "value": "2016-08-08"
+                            },
+                            {
+                              "value": "Expense",
+                              "id": "7"
+                            },
+                            {
+                              "value": ""
+                            },
+                            {
+                              "value": "Safa Safa",
+                              "id": "2"
+                            },
+                            {
+                              "value": "Hello-class",
+                              "id": "1400000000000117813"
+                            },
+                            {
+                              "value": ""
+                            },
+                            {
+                              "value": "Cash and cash equivalents",
+                              "id": "16"
+                            },
+                            {
+                              "value": "-212.00"
+                            },
+                            {
+                              "value": "-212.00"
+                            }
+                          ],
+                          "type": "Data"
+                        }
+                      ]
+                    },
+                    "Summary": {
+                      "ColData": [
+                        {
+                          "value": "Total for Billable Expense Income"
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": "-212.00"
+                        },
+                        {
+                          "value": ""
+                        }
+                      ]
+                    },
+                    "type": "Section"
+                  },
+                  {
+                    "Header": {
+                      "ColData": [
+                        {
+                          "value": "Services",
+                          "id": "1"
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        }
+                      ]
+                    },
+                    "Rows": {
+                      "Row": [
+                        {
+                          "ColData": [
+                            {
+                              "value": "2016-08-05"
+                            },
+                            {
+                              "value": "Invoice",
+                              "id": "4"
+                            },
+                            {
+                              "value": "1002"
+                            },
+                            {
+                              "value": "Asad asad",
+                              "id": "1"
+                            },
+                            {
+                              "value": "",
+                              "id": ""
+                            },
+                            {
+                              "value": ""
+                            },
+                            {
+                              "value": "Accounts Receivable (Debtors)",
+                              "id": "10"
+                            },
+                            {
+                              "value": "231.00"
+                            },
+                            {
+                              "value": "231.00"
+                            }
+                          ],
+                          "type": "Data"
+                        },
+                        {
+                          "ColData": [
+                            {
+                              "value": "2016-08-05"
+                            },
+                            {
+                              "value": "Invoice",
+                              "id": "1"
+                            },
+                            {
+                              "value": "1001"
+                            },
+                            {
+                              "value": "Asad asad",
+                              "id": "1"
+                            },
+                            {
+                              "value": "",
+                              "id": ""
+                            },
+                            {
+                              "value": ""
+                            },
+                            {
+                              "value": "Accounts Receivable (Debtors)",
+                              "id": "10"
+                            },
+                            {
+                              "value": "1000.00"
+                            },
+                            {
+                              "value": "1231.00"
+                            }
+                          ],
+                          "type": "Data"
+                        },
+                        {
+                          "ColData": [
+                            {
+                              "value": "2016-08-05"
+                            },
+                            {
+                              "value": "Invoice",
+                              "id": "4"
+                            },
+                            {
+                              "value": "1002"
+                            },
+                            {
+                              "value": "Asad asad",
+                              "id": "1"
+                            },
+                            {
+                              "value": "",
+                              "id": ""
+                            },
+                            {
+                              "value": ""
+                            },
+                            {
+                              "value": "Accounts Receivable (Debtors)",
+                              "id": "10"
+                            },
+                            {
+                              "value": "6150.00"
+                            },
+                            {
+                              "value": "7381.00"
+                            }
+                          ],
+                          "type": "Data"
+                        }
+                      ]
+                    },
+                    "Summary": {
+                      "ColData": [
+                        {
+                          "value": "Total for Services"
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": "7381.00"
+                        },
+                        {
+                          "value": ""
+                        }
+                      ]
+                    },
+                    "type": "Section"
+                  }
+                ]
+              },
+              "Summary": {
+                "ColData": [
+                  {
+                    "value": "Total for Income"
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": "7169.00"
+                  },
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              "type": "Section"
+            },
+            {
+              "Header": {
+                "ColData": [
+                  {
+                    "value": "Expenses"
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              "Rows": {
+                "Row": [
+                  {
+                    "Header": {
+                      "ColData": [
+                        {
+                          "value": "Uncategorised Expense",
+                          "id": "7"
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        }
+                      ]
+                    },
+                    "Rows": {
+                      "Row": [
+                        {
+                          "ColData": [
+                            {
+                              "value": "2016-08-05"
+                            },
+                            {
+                              "value": "Bill",
+                              "id": "3"
+                            },
+                            {
+                              "value": ""
+                            },
+                            {
+                              "value": "Safa Safa",
+                              "id": "2"
+                            },
+                            {
+                              "value": "",
+                              "id": ""
+                            },
+                            {
+                              "value": ""
+                            },
+                            {
+                              "value": "Accounts Payable (Creditors)",
+                              "id": "13"
+                            },
+                            {
+                              "value": "200.00"
+                            },
+                            {
+                              "value": "200.00"
+                            }
+                          ],
+                          "type": "Data"
+                        },
+                        {
+                          "ColData": [
+                            {
+                              "value": "2016-08-08"
+                            },
+                            {
+                              "value": "Expense",
+                              "id": "6"
+                            },
+                            {
+                              "value": ""
+                            },
+                            {
+                              "value": "Safa Safa",
+                              "id": "2"
+                            },
+                            {
+                              "value": "Hello-class",
+                              "id": "1400000000000117813"
+                            },
+                            {
+                              "value": ""
+                            },
+                            {
+                              "value": "Cash and cash equivalents",
+                              "id": "16"
+                            },
+                            {
+                              "value": "1234.00"
+                            },
+                            {
+                              "value": "1434.00"
+                            }
+                          ],
+                          "type": "Data"
+                        }
+                      ]
+                    },
+                    "Summary": {
+                      "ColData": [
+                        {
+                          "value": "Total for Uncategorised Expense"
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": ""
+                        },
+                        {
+                          "value": "1434.00"
+                        },
+                        {
+                          "value": ""
+                        }
+                      ]
+                    },
+                    "type": "Section"
+                  }
+                ]
+              },
+              "Summary": {
+                "ColData": [
+                  {
+                    "value": "Total for Expenses"
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": "1434.00"
+                  },
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              "type": "Section"
+            }
+          ]
+        },
+        "Summary": {
+          "ColData": [
+            {
+              "value": "Net Income"
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": ""
+            },
+            {
+              "value": "5735.00"
+            },
+            {
+              "value": ""
+            }
+          ]
+        },
+        "type": "Section"
+      }
+    ]
+  }
+}
